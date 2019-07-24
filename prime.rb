@@ -1,4 +1,4 @@
-def prime?(num)
+def prime?(number)
   i = 1
   while i < number do
     if number <= 1 && number % 1 == 0
