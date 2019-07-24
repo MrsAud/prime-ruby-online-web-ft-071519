@@ -17,7 +17,7 @@ def prime?(num)
   end
   
   while i < num do
-    if num <= 1 && (num % i == 0) && i != 1 && i != num
+    if num <= 1 && (num % i == 0) && i != 1 && i != num && num 
       return false
     else
       i += 1
